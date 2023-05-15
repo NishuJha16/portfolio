@@ -1,0 +1,17 @@
+@import "../../styles/variable.scss";
+
+.portfolio {
+  position: relative;
+  height: 100%;
+  overflow-y: overlay;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+ 
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $text-light;
+    border-radius: 4px;
+  }
+}

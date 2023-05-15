@@ -1,0 +1,61 @@
+@import "../../styles/variable.scss";
+.techstacks {
+  align-items: center;
+  display: grid;
+  gap: 3em 2em;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin: 2em 8em;
+
+  .slide-in {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+  }
+
+  .tech-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+    .tech-icon {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+      transition: all .5s ease-in-out;
+
+      &:hover {
+        transform: scale(1.25); 
+      }
+    }
+    .tech-name {
+      font-weight: 600;
+      font-size: 1.125rem;
+      color: $text-light;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .techstacks {
+    margin: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 560px) {
+  .techstacks {
+    .tech-card {
+    justify-content: center;
+
+      .tech-icon {
+        width: 32px;
+        height: 32px;
+      }
+      .tech-name {
+        font-size: 1rem;
+      }
+    }
+  }
+}
