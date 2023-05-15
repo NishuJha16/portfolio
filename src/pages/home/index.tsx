@@ -11,13 +11,11 @@ const Home = () => {
   const [active, setActive] = useState<string>("home");
   const handleActiveIndexChange = (id: string) => {
     setActive(id);
-    console.log(id)
   };
   const scrollToDiv = (id: string) => {
     const element = document.getElementById(id);
     element && element.scrollIntoView({ behavior: "smooth" });
   };
-  console.log(active)
   return (
     <div className="portfolio">
       <Header setActive={handleActiveIndexChange} />

@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 1rem;
 
   .section {
     flex: 1;
@@ -152,16 +153,16 @@
         .social-icon:hover {
           transform: rotate(360deg) scale(1.3);
         }
-        .facebook {
+        .instagram {
           font-size: 22px;
           padding-top: 4px;
-          border-color: #3b5998;
-          background-color: #3b5998;
+          border-color: #ff2d3e;
+          background-color: #ff2d3e;
           color: #ffffff;
         }
-        .facebook:hover {
+        .instagram:hover {
           background-color: #ffffff;
-          color: #3b5998;
+          color: #ff2d3e;
         }
         .linkedin {
           font-size: 24px;

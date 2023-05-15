@@ -50,16 +50,16 @@ const Header = ({ setActive }: any) => {
             </ul>
             <div className="social-buttons">
               <a
-                href="http://www.instagram.com"
+                href="https://instagram.com/nishu_jha_?igshid=OTk0YzhjMDVlZA=="
                 target="blank"
                 className="social-margin"
               >
-                <div className="social-icon facebook">
-                  <i className="fa fa-facebook" aria-hidden="true"></i>
+                <div className="social-icon instagram">
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
                 </div>
               </a>
               <a
-                href="http://linkedin.com/"
+                href="https://www.linkedin.com/in/nishu-kumari-32207022b/"
                 className="social-margin"
                 target="blank"
               >
@@ -68,7 +68,7 @@ const Header = ({ setActive }: any) => {
                 </div>
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/NishuJha16"
                 target="blank"
                 className="social-margin"
               >
