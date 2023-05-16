@@ -44,9 +44,9 @@ const Header = ({ setActive }: any) => {
             <p className="facts-name">Hii ! I'm Nishu 💻</p>
             <p className="facts-title">Here's some facts about me:</p>
             <ul className="facts-list">
-              <li>Web Developer</li>
-              <li>Tech Enthusiast</li>
-              <li>Photogtapher</li>
+              <li className="red">Web Developer</li>
+              <li className="green">Tech Enthusiast</li>
+              <li className="yellow">Photographer</li>
             </ul>
             <div className="social-buttons">
               <a

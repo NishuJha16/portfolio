@@ -109,6 +109,19 @@
           position: relative;
           flex: 1;
           margin: 0 1rem;
+
+          .red{
+            color: rgb(230, 3, 3);
+          }
+
+          .green{
+            color: rgb(9, 228, 27);
+          }
+
+          .yellow{
+            color: rgb(230, 215, 3);
+          }
+
           li {
             list-style: none;
             font-size: 1rem;

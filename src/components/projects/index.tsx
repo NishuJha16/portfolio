@@ -16,7 +16,7 @@ const projectsData = [
     category: ACADUP_LOGO,
     icon: ACADUP,
     description:
-      "It is a android application made via Android studio, Java and Firebase for authentication and Data storage. The purpose is basically to make an e-learning platform where the user can find the recorder videos, notes, quizes and even schedule demo for live classes.",
+      "It is an android application made via Android studio, Java and Firebase for authentication and Data storage. The purpose is basically to make an e-learning platform where the user can find the recorded videos, notes, quizes and even schedule demo for live classes.",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projectsData = [
     icon: EXPENSE,
     category: EXPENSE_MANAGER,
     description:
-      "An Android application used to manage the user’s daily expenses in a more efficient and manageable way. Adding budget, categorized expenses and getting the stastics and figures for a particular period of time is the main key feature of this application.",
+      "An Android application used to manage the user’s daily expenses in a more efficient way. Adding budget, categorizing expenses and getting the stastics and figures for a particular period of time is the main key feature of this application.",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const projectsData = [
     icon: SLOTIFY,
     category: CODITAS,
     description:
-      "Company's internal app using React for managing and automating interview process for interviews right from panel to recruiter's end.During this I get to know navigation, reusable components, styling and boilerplate and clean code",
+      "Company's internal app using React for managing and automating interview process for interviews right from panel to recruiter's end.During this I get to know navigation, reusable components, styling, boilerplate and clean code",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const projectsData = [
     icon: CONNECT,
     category: CODITAS,
     description:
-      "Web app using Next js for end to end communication between users. I have used socket.io/client for realtime chat and indexDb for storing messages on client side for prefetching and offline caching. Integrated backend which used Whatsapp business APIs to send ,receive and other operations on messages.",
+      "Web app using Next js for end to end communication between users. I have used socket.io/client for realtime chat and indexDb for storing messages on client side for prefetching and offline caching. Integrated backend that used Whatsapp business APIs to send ,receive and other operations on messages.",
   },
 ];
 
