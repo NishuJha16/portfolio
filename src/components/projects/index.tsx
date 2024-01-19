@@ -53,7 +53,7 @@ const projectsData = [
     category: TASK_MANGER,
     link:"https://task-manager-dashboard-liard.vercel.app/",
     description:
-      "A React-based task management dashboard provides a visually intuitive and responsive platform for overseeing project portfolios. Leveraging React's component architecture, it enables real-time updates and seamless collaboration, enhancing project coordination. The dashboard's user-friendly design ensures efficient task tracking and decision-making.",
+      "A React-based task management dashboard provides a visually intuitive and responsive platform for overseeing project portfolios. The dashboard's user-friendly design ensures efficient task tracking and decision-making.",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const projectsData = [
     category: WEATHER_APP,
     link:"https://weather-app-nishujha16.vercel.app/",
     description:
-      "Built with React, the weather app delivers real-time weather information with dynamic displays of temperature, humidity, and wind speed. Users can effortlessly search for and view weather details for specific locations, while React's state management ensures a responsive and smooth user experience. The app's clean and intuitive design enhances accessibility for staying informed about weather conditions.",
+      "The React-based weather app provides a seamless and user-friendly experience, displaying real-time weather data with dynamic updates. Its intuitive design allows users to easily search and view weather details for specific locations.",
   },
   {
     id: 7,
