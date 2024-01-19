@@ -72,7 +72,7 @@ const projectsData = [
     category: REACT,
     link:"https://govahan.vercel.app/",
     description:
-      "A React-based transportation website's landing page offers a sleek and responsive interface, utilizing components for dynamic content showcasing services, pricing, and contact details. Real-time updates and smooth transitions enhance user experience, while interactive elements encourage exploration. The design prioritizes simplicity, providing visitors with an efficient introduction to the transportation services offered.",
+      "A React-based transportation website's landing page offers a sleek and responsive interface, utilizing components for dynamic content showcasing services, pricing, and contact details. Real-time updates and smooth transitions enhance user experience. The design prioritizes simplicity, providing visitors with an efficient introduction to the transportation services offered.",
   },
   {
     id:8,
