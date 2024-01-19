@@ -111,7 +111,7 @@ const Projects = ({ setActive }: any) => {
             <img src={project.icon} alt="" className="card-image" />
             <div className="card-title">{project.name}</div>
             <div className="card-description">{project.description}</div>
-            {project?.link && <a href={project.link}>Live Demo</a>}
+            {project?.link && <a href={project.link} target="_blank">Live Demo</a>}
           </div>
         ))}
       </div>
