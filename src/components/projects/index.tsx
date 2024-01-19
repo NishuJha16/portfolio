@@ -6,6 +6,10 @@ import CONNECT from "../../assets/connect.jpeg";
 import CODITAS from "../../assets/coditas.jpg";
 import ACADUP_LOGO from "../../assets/android-app.png";
 import EXPENSE_MANAGER from "../../assets/android-app.png";
+import TASK_MANGER from "../../assets/task-manager.png";
+import WEATHER_APP from "../../assets/weather-app.png";
+import SHORTLY from "../../assets/shortly.png";
+import GO_VAHAN from "../../assets/landing-page.png";
 import { useRef, useEffect, useState } from "react";
 import useOnScreen from "../../hooks/userOnscreen";
 
@@ -42,6 +46,41 @@ const projectsData = [
     description:
       "Web app using Next js for end to end communication between users. I have used socket.io/client for realtime chat and indexDb for storing messages on client side for prefetching and offline caching. Integrated backend that used Whatsapp business APIs to send ,receive and other operations on messages.",
   },
+  {
+    id: 5,
+    name: "Octom",
+    icon: TASK_MANGER,
+    category: TASK_MANGER,
+    link:"https://task-manager-dashboard-liard.vercel.app/",
+    description:
+      "A task management dashboard with analytics,theme-switching options and tools avaialble to manage tasks at one place. I have used React.js, Tailwind css and Mui for theme switching functionality.",
+  },
+  {
+    id: 6,
+    name: "Weather App",
+    icon: WEATHER_APP,
+    category: WEATHER_APP,
+    link:"https://weather-app-nishujha16.vercel.app/",
+    description:
+      "A weather application built with React provides a user-friendly interface for accessing current weather information. Leveraging React's component-based architecture, the app dynamically displays real-time weather data, including temperature, humidity, and wind speed. Users can easily search for and view weather details for specific locations. The application utilizes state management for seamless updates and responsiveness, ensuring a smooth user experience. With a clean and intuitive design, the React-based weather app offers a straightforward way for users to stay informed about the weather conditions in their desired locations.",
+  },
+  {
+    id: 7,
+    name: "Go vahan",
+    icon: GO_VAHAN,
+    category: GO_VAHAN,
+    link:"https://govahan.vercel.app/",
+    description:
+      "A React-based transportation website's landing page offers a sleek and responsive interface, utilizing components for dynamic content showcasing services, pricing, and contact details. Real-time updates and smooth transitions enhance user experience, while interactive elements encourage exploration. The design prioritizes simplicity, providing visitors with an efficient introduction to the transportation services offered.",
+  },
+  {
+    id:8,
+    name:"Shortly",
+    icon:SHORTLY,
+    link:"https://shortly-lac-five.vercel.app/",
+    category:SHORTLY,
+    description:"A React-powered URL shortening website delivers a user-friendly experience, allowing seamless input and instant generation of shortened links. The intuitive interface, coupled with React's real-time updates, ensures efficient URL management. The design prioritizes simplicity, making the process quick and straightforward for users."
+  }
 ];
 
 const Projects = ({ setActive }: any) => {
@@ -72,6 +111,7 @@ const Projects = ({ setActive }: any) => {
             <img src={project.icon} alt="" className="card-image" />
             <div className="card-title">{project.name}</div>
             <div className="card-description">{project.description}</div>
+            {project?.link && <a href={project.link}>Live Demo</a>}
           </div>
         ))}
       </div>
