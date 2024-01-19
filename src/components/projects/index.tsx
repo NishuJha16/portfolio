@@ -99,20 +99,24 @@ const Projects = ({ setActive }: any) => {
 
   return (
     <div className="page-section" id="projects" ref={projectRef}>
-      <div className={`about-title ${isVisited ? "slide-in" : ""}`}>
+      <div className={`about-title ${isVisited ? "slide-in" : "slide-in"}`}>
         PROJECTS
       </div>
       <div className="projects">
         {projectsData.map((project, index) => (
           <div
-            className={`project-card ${isVisited ? "slide-out" : ""}`}
+            className={`project-card ${isVisited ? "slide-out" : "slide-out"}`}
             key={index}
           >
             <img src={project.category} className="card-logo" alt="img" />
             <img src={project.icon} alt="" className="card-image" />
             <div className="card-title">{project.name}</div>
             <div className="card-description">{project.description}</div>
-            {project?.link && <a href={project.link} target="_blank">Live Demo</a>}
+            {project?.link && (
+              <a href={project.link} target="_blank">
+                Live Demo
+              </a>
+            )}
           </div>
         ))}
       </div>
