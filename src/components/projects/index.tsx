@@ -53,7 +53,7 @@ const projectsData = [
     category: TASK_MANGER,
     link:"https://task-manager-dashboard-liard.vercel.app/",
     description:
-      "A task management dashboard with analytics,theme-switching options and tools avaialble to manage tasks at one place. I have used React.js, Tailwind css and Mui for theme switching functionality.",
+      "A React-based task management dashboard provides a visually intuitive and responsive platform for overseeing project portfolios. Leveraging React's component architecture, it enables real-time updates and seamless collaboration, enhancing project coordination. The dashboard's user-friendly design ensures efficient task tracking and decision-making.",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const projectsData = [
     category: WEATHER_APP,
     link:"https://weather-app-nishujha16.vercel.app/",
     description:
-      "A weather application built with React provides a user-friendly interface for accessing current weather information. Leveraging React's component-based architecture, the app dynamically displays real-time weather data, including temperature, humidity, and wind speed. Users can easily search for and view weather details for specific locations. The application utilizes state management for seamless updates and responsiveness, ensuring a smooth user experience. With a clean and intuitive design, the React-based weather app offers a straightforward way for users to stay informed about the weather conditions in their desired locations.",
+      "Built with React, the weather app delivers real-time weather information with dynamic displays of temperature, humidity, and wind speed. Users can effortlessly search for and view weather details for specific locations, while React's state management ensures a responsive and smooth user experience. The app's clean and intuitive design enhances accessibility for staying informed about weather conditions.",
   },
   {
     id: 7,
