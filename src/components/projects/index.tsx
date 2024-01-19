@@ -10,6 +10,7 @@ import TASK_MANGER from "../../assets/task-manager.png";
 import WEATHER_APP from "../../assets/weather-app.png";
 import SHORTLY from "../../assets/shortly.png";
 import GO_VAHAN from "../../assets/landing-page.png";
+import REACT from "../../assets/react.png";
 import { useRef, useEffect, useState } from "react";
 import useOnScreen from "../../hooks/userOnscreen";
 
@@ -50,7 +51,7 @@ const projectsData = [
     id: 5,
     name: "Octom",
     icon: TASK_MANGER,
-    category: TASK_MANGER,
+    category: REACT,
     link:"https://task-manager-dashboard-liard.vercel.app/",
     description:
       "A React-based task management dashboard provides a visually intuitive and responsive platform for overseeing project portfolios. The dashboard's user-friendly design ensures efficient task tracking and decision-making.",
@@ -59,7 +60,7 @@ const projectsData = [
     id: 6,
     name: "Weather App",
     icon: WEATHER_APP,
-    category: WEATHER_APP,
+    category: REACT,
     link:"https://weather-app-nishujha16.vercel.app/",
     description:
       "The React-based weather app provides a seamless and user-friendly experience, displaying real-time weather data with dynamic updates. Its intuitive design allows users to easily search and view weather details for specific locations.",
@@ -68,7 +69,7 @@ const projectsData = [
     id: 7,
     name: "Go vahan",
     icon: GO_VAHAN,
-    category: GO_VAHAN,
+    category: REACT,
     link:"https://govahan.vercel.app/",
     description:
       "A React-based transportation website's landing page offers a sleek and responsive interface, utilizing components for dynamic content showcasing services, pricing, and contact details. Real-time updates and smooth transitions enhance user experience, while interactive elements encourage exploration. The design prioritizes simplicity, providing visitors with an efficient introduction to the transportation services offered.",
@@ -78,7 +79,7 @@ const projectsData = [
     name:"Shortly",
     icon:SHORTLY,
     link:"https://shortly-lac-five.vercel.app/",
-    category:SHORTLY,
+    category:REACT,
     description:"A React-powered URL shortening website delivers a user-friendly experience, allowing seamless input and instant generation of shortened links. The intuitive interface, coupled with React's real-time updates, ensures efficient URL management. The design prioritizes simplicity, making the process quick and straightforward for users."
   }
 ];
